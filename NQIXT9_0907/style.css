@@ -1,0 +1,43 @@
+body{
+	background-image: url("kep/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+img{
+	display: block;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+table{
+	display: block;
+	width: 51%;
+	margin-left: auto;
+	margin-right: auto;
+}
+th{
+	font-size: 30px;
+	color : white;
+	text-align: center;
+	width: 17%;
+}
+td{
+	text-align: left;
+	padding-left: 30%;
+}
+li{
+	font-size: 20px;
+	color: white;
+}
+a{
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	text-shadow: 4px 4px black;
+}
+img:hover{
+	transform: scale(1.2,1.2);
+}
