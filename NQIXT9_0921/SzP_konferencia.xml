@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konferencia>
+	<cim>konferencia 01</cim>
+	<hallgatok>
+		<hallgató>
+			<nev>Nagy András</nev>
+			<lakcim>Miskolc</lakcim>
+		</hallgató>		
+		<hallgató>
+			<nev>Nagy Anna</nev>
+			<lakcim>Tiszaújváros</lakcim>
+		</hallgató>
+	</hallgatok>
+	<helyszin>A/2 fsz. I. előadó</helyszin>
+	<eloado>
+		<nev>Kiss Elemér</nev>
+		<adoszam>0000000004</adoszam>
+		<lakcim>Miskolc</lakcim>
+	</eloado>
+	<datum>2022.02.28.</datum>
+</konferencia>
