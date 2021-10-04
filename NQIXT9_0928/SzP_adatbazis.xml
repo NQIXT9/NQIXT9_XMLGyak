@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<adatbazis>
+	<dolgozo id="aaa" nev="Antal" fizetes="100000"/>
+	<dolgozo id="aab" nev="Béla" fizetes="100000"/>
+</adatbazis>
