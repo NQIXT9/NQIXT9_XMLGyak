@@ -6,20 +6,20 @@
 		<ev>2021</ev>
 		<kiado>Prentice Hall</kiado>
 		<szerzo>Cay S. Horstmann</szerzo>
-		<abstrakt>Valami</abstrakt>
+		<absztrakt>Valami</absztrakt>
 	</konyv>
 	<konyv id="k02">
 		<cim>Java: A Beginner’s Guide</cim>
 		<ev>2018</ev>
 		<kiado>McGraw-Hill Education</kiado>
 		<szerzo>Herbert Schildt</szerzo>
-		<abstrakt>Valami</abstrakt>
+		<absztrakt>Valami</absztrakt>
 	</konyv>
 	<konyv id="k03">
 		<cim>Java - The Complete Reference</cim>
 		<ev>2019</ev>
 		<kiado>McGraw-Hill Education</kiado>
 		<szerzo>Herbert Schildt</szerzo>
-		<abstrakt>Valami</abstrakt>
+		<absztrakt>Valami</absztrakt>
 	</konyv>
 </konyvtar>

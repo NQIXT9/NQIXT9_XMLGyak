@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adatbazis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SzP_ertosxd.xsd">
+	<A a="aaa">
+		<b>
+			<x>asd</x>
+			<y>asd</y>
+		</b>
+		<c>
+			<d>asd</d>
+			<e>asd</e>
+		</c>
+	</A>
+	<B a="bbb" c="ccc">
+		<b>
+			<x>asd</x>
+			<y>asd</y>
+		</b>
+	</B>
+	<C a="ccc">
+		<b>asd</b>
+	</C>
+	<AB a="aaa" b="bbb">
+		<c>asd</c>
+	</AB>
+</adatbazis>
