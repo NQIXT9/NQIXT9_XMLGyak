@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konyvtar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Szp_konyv.xsd">
+	<konyv id="k01">
+		<cim>Core Java Volume I – Fundamentals</cim>
+		<ev>2021</ev>
+		<kiado>Prentice Hall</kiado>
+		<szerzo>Cay S. Horstmann</szerzo>
+		<abstrakt>Valami</abstrakt>
+	</konyv>
+	<konyv id="k02">
+		<cim>Java: A Beginner’s Guide</cim>
+		<ev>2018</ev>
+		<kiado>McGraw-Hill Education</kiado>
+		<szerzo>Herbert Schildt</szerzo>
+		<abstrakt>Valami</abstrakt>
+	</konyv>
+	<konyv id="k03">
+		<cim>Java - The Complete Reference</cim>
+		<ev>2019</ev>
+		<kiado>McGraw-Hill Education</kiado>
+		<szerzo>Herbert Schildt</szerzo>
+		<abstrakt>Valami</abstrakt>
+	</konyv>
+</konyvtar>

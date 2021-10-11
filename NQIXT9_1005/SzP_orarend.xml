@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<orarend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Szp_orarend.xsd">
+    <ora id="o1" tipus="előadás">
+        <targy>Oracle rendszergazda</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </idopont>
+        <helyszin>in/103</helyszin>
+        <oktato>Dr. Kovács László</oktato>
+        <szak>Mérnökinformatikus</szak>
+    </ora>
+    <ora id="o2" tipus="gyakorlat">
+        <targy>Korszerű technológiák</targy>
+        <idopont>
+            <nap>hétfő</nap>
+            <tol>14</tol>
+            <ig>16</ig>
+        </idopont>
+        <helyszin>in/103</helyszin>
+        <oktato>Soós Róbert</oktato>
+        <szak>Mérnökinformatikus</szak>
+    </ora>
+    <ora id="o3" tipus="előadás">
+        <targy>Korszerű technológiák</targy>
+        <idopont>
+            <nap>hétfő</nap>
+            <tol>16</tol>
+            <ig>18</ig>
+        </idopont>
+        <helyszin>in/103</helyszin>
+        <oktato>Árvai László</oktato>
+        <szak>Mérnökinformatikus</szak>
+    </ora>
+    <ora id="o4" tipus="gyakorlat">
+        <targy>Oracle rendszergazda</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>10</tol>
+            <ig>12</ig>
+        </idopont>
+        <helyszin>in/203</helyszin>
+        <oktato>Szűcs Miklós</oktato>
+        <szak>Mérnökinformatikus</szak>
+    </ora>
+    <ora id="o5" tipus="előadás">
+        <targy>Adatkezelés XML-ben</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </idopont>
+        <helyszin>I</helyszin>
+        <oktato>Bednarik László</oktato>
+        <szak>Mérnökinformatikus</szak>
+    </ora>
+    <ora id="o6" tipus="gyakorlat">
+        <targy>Adatkezelés XML-ben</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>14</tol>
+            <ig>16</ig>
+        </idopont>
+        <helyszin>in/103</helyszin>
+        <oktato>Bednarik László</oktato>
+        <szak>Mérnökinformatikus</szak>
+    </ora>
+</orarend>
