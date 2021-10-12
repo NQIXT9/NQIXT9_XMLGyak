@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nevjegykartyak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SzP_nevjegykartya.xsd">
+
+<nevjegykartyak>
+
+	<nevjegykartya id="1">
+		
+		<nev>Bekre Pál</nev>
+		<ceg>
+			<nev>Bekre Pál Bt.</nev>
+			<cim>
+				<iranyitoszam>3580</iranyitoszam>
+				<varos>Tisazújváros</varos>
+				<utca>Rózsa</utca>
+				<hazszam>20</hazszam>
+			</cim>
+			<telefonszam>06706661420</telefonszam>
+			<weblap>www.bekrepal.hu</weblap>
+		</ceg>
+		<beosztas>Szerelő</beosztas>
+		<telefonszam>06706662420</telefonszam>
+		<email>bekrepal420@gmail.com</email>
+	</nevjegykartya>
+	
+	<nevjegykartya id="2">
+		
+		<nev>Bekre Pálné</nev>
+		<ceg>
+			<nev>Bekre Pál Bt.</nev>
+			<cim>
+				<iranyitoszam>3580</iranyitoszam>
+				<varos>Tisazújváros</varos>
+				<utca>Rózsa</utca>
+				<hazszam>20</hazszam>
+			</cim>
+			<telefonszam>06706661420</telefonszam>
+			<weblap>www.bekrepal.hu</weblap>
+		</ceg>
+		<beosztas>Takarítónő</beosztas>
+		<telefonszam>06706663420</telefonszam>
+		<email>bekrepalne666@gmail.com</email>
+	</nevjegykartya>
+</nevjegykartyak>
