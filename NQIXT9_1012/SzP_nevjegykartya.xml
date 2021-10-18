@@ -4,7 +4,7 @@
 
 <nevjegykartyak>
 
-	<nevjegykartya id="1">
+	<nevjegykartya id="01">
 		
 		<nev>Bekre Pál</nev>
 		<ceg>
@@ -23,22 +23,22 @@
 		<email>bekrepal420@gmail.com</email>
 	</nevjegykartya>
 	
-	<nevjegykartya id="2">
+	<nevjegykartya id="02">
 		
-		<nev>Bekre Pálné</nev>
+		<nev>Szarka Péter</nev>
 		<ceg>
 			<nev>Bekre Pál Bt.</nev>
 			<cim>
 				<iranyitoszam>3580</iranyitoszam>
 				<varos>Tisazújváros</varos>
 				<utca>Rózsa</utca>
-				<hazszam>20</hazszam>
+				<hazszam>30</hazszam>
 			</cim>
 			<telefonszam>06706661420</telefonszam>
 			<weblap>www.bekrepal.hu</weblap>
 		</ceg>
-		<beosztas>Takarítónő</beosztas>
+		<beosztas>Szerelő</beosztas>
 		<telefonszam>06706663420</telefonszam>
-		<email>bekrepalne666@gmail.com</email>
+		<email>szp666@gmail.com</email>
 	</nevjegykartya>
 </nevjegykartyak>

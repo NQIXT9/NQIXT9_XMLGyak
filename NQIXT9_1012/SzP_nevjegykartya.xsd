@@ -5,7 +5,7 @@
     <xs:element name="nevjegykartyak">
          <xs:complexType>
              <xs:sequence>
-                 <xs:element name="nevjegykartya" type="nevjegykartyaType" minOccurs="0" maxOccurs="unbounded"/>
+                 <xs:element name="nevjegykartya" type="nevjegykartyaType">
              </xs:sequence>
          </xs:complexType>
     </xs:element>
