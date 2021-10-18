@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SzP_konyv1.xsd">
+
+<konyvek>   
+    <konyv isbn="01">
+        <cim>Japán</cim>
+        <szerzo>Badár Sándor</szerzo>
+        <szereplo>
+            <nev>Badár Sándor</nev>
+            <baratja>Horváth János</baratja>
+            <szuletett>1964.02.08.</szuletett>
+            <jellemzes>Vidám</jellemzes>
+        </szereplo>
+        <masikszereplo>
+            <nev>Horváth János</nev>
+            <szuletett>1963.05.02.</szuletett>
+            <jellemzes>Vicces</jellemzes>
+        </masikszereplo>
+    </konyv>
+	<konyv isbn="02">
+        <cim>Ámerika avagy a véredény nyomában</cim>
+        <szerzo>Badár Sándor</szerzo>
+        <szereplo>
+            <nev>Badár Sándor</nev>
+            <baratja>Horváth János</baratja>
+            <szuletett>1964.02.08.</szuletett>
+            <jellemzes>Vidám</jellemzes>
+        </szereplo>
+        <masikszereplo>
+            <nev>Horváth János</nev>
+            <szuletett>1963.05.02.</szuletett>
+            <jellemzes>Vicces</jellemzes>
+        </masikszereplo>
+    </konyv>
+</konyvek>
