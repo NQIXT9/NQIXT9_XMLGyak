@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE szemelyek SYSTEM "szemelyekNQIXT9.dtd">
+
+<!--<szemelyek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="szemelyekNQIXT9.xsd">-->
+
+<szemelyek>
+	<szemely id="01">
+		<nev>Nagy Jáns</nev>
+		<kor>30</kor>
+		<varos>Keszthely</varos>
+	</szemely>
+
+	<szemely id="02">
+		<nev>Szarka Péter</nev>
+		<kor>23</kor>
+		<varos>Tiszaújváros</varos>
+	</szemely>
+
+	<szemely id="01">
+		<nev>Kis Ferenc</nev>
+		<kor>20</kor>
+		<varos>Békéscsaba</varos>
+	</szemely>
+</szemelyek>
