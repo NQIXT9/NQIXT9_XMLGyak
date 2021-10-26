@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<userB9ZL3Q xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="userNQIXT9.xsd">
+
+<users>
+  <user id="1">
+    <firstname>Péter</firstname>
+	<lastname>Szarka</lastname>
+	<profession>szadista</profession>
+  </user>
+  
+  <user id="2">
+    <firstname>Ádám</firstname>
+	<lastname>Szívós</lastname>
+	<profession>mazochista</profession>
+  </user>
+  
+  <user id="3">
+    <firstname>Imre</firstname>
+	<lastname>Kiss</lastname>
+	<profession>burkoló</profession>
+  </user>
+</users>
