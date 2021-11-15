@@ -1,4 +1,4 @@
-package xpathnqixt91109;
+package xpathnqixt91107;
 
 import java.io.File;
 import java.io.IOException;
@@ -19,16 +19,20 @@ public class xPathNQIXT9 {
 			//xPath
 			XPath xPath = XPathFactory.newInstance().newXPath();
 			
-			//String expression = "class";
-			//String expression = "/class/student";
+			String expression = "/class";
 			
-			//String expression = "//student[@id='01']";
-			//String expression = "//student";
-			//String expression = "/class/student[2]";
-			//String expression = "/class/student[kor>20]";
-			//String expression = "/class/student[last()]";
-			//String expression = "/class/student[last()-1]";
-			
+			//String expression = "/class/student";//1
+			//String expression = "//student[@id='01']";//2
+			//String expression = "//student";//3
+			//String expression = "/class/student[2]";//4
+			//String expression = "/class/student[last()]";//5
+			//String expression = "/class/student[last()-1]";//6
+			//String expression = "/class/student[position()<3]";//7
+			//String expression = "/class/*";//8
+			//String expression = "//student[@*]";//9
+			//String expression = "//*";//10
+			//String expression = "/class/student[kor>20]";//11
+			//String expression = "//*[self::vezeteknev or self::keresztnev]";//12
 			
 			NodeList nodeList = (NodeList) xPath.compile(expression).evaluate(document, XPathConstants.NODESET);
 			
