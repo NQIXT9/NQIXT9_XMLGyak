@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>: SzP orarend &ndash; 2021/22. I. felev.</title>
+    </head>
+    <body>
+        <table border="1">
+            <tr bgcolor="#9acd32">
+                <th>tipus</th><th>targy</th><th>nap</th><th>tol</th><th>ig</th><th>helyszin</th><th>oktato</th><th>szak</th>
+            </tr>
+            <tr>
+                <td>eloadas</td><td>Oracle rendszergazda</td><td>kedd</td><td>12</td><td>14</td><td>in/103</td><td>Dr. Kovacs Laszlo</td><td>Mernokinformatikus</td>
+            </tr>
+            <tr>
+                <td>gyakorlat</td><td>Korszeru technologiak</td><td>hetfo</td><td>14</td><td>16</td><td>in/103</td><td>Soos Robert</td><td>Mernokinformatikus</td>
+            </tr>
+            <tr>
+                <td>eloadas</td><td>Korszeru technologiak</td><td>hetfo</td><td>16</td><td>18</td><td>in/103</td><td>Arvai Laszlo</td><td>Mernokinformatikus</td>
+            </tr>
+            <tr>
+                <td>gyakorlat</td><td>Oracle rendszergazda</td><td>kedd</td><td>10</td><td>12</td><td>in/203</td><td>Szucs Miklos</td><td>Mernokinformatikus</td>
+            </tr>
+            <tr>
+                <td>eloadas</td><td>Adatkezeles XML-ben</td><td>kedd</td><td>12</td><td>14</td><td>I</td><td>Bednarik Laszlo</td><td>Mernokinformatikus</td>
+            </tr>
+            <tr>
+                <td>gyakorlat</td><td>Adatkezeles XML-ben</td><td>kedd</td><td>14</td><td>16</td><td>in/103</td><td>Bednarik Laszlo</td><td>Mernokinformatikus</td>
+            </tr>
+        </table>
+    </body>
+</html>

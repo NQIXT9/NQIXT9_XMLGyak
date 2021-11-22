@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type = "text/xsl" href = "orarendNQIXT9.xsl"?>
+
+<orarend>
+    <ora id="o1" tipus="eloadas">
+        <targy>Oracle rendszergazda</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </idopont>
+        <helyszin>in/103</helyszin>
+        <oktato>Dr. Kovacs Laszlo</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+    <ora id="o2" tipus="gyakorlat">
+        <targy>Korszeru technologiak</targy>
+        <idopont>
+            <nap>hetfo</nap>
+            <tol>14</tol>
+            <ig>16</ig>
+        </idopont>
+        <helyszin>in/103</helyszin>
+        <oktato>Soos Robert</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+    <ora id="o3" tipus="eloadas">
+        <targy>Korszeru technologiak</targy>
+        <idopont>
+            <nap>hetfo</nap>
+            <tol>16</tol>
+            <ig>18</ig>
+        </idopont>
+        <helyszin>in/103</helyszin>
+        <oktato>Arvai Laszlo</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+    <ora id="o4" tipus="gyakorlat">
+        <targy>Oracle rendszergazda</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>10</tol>
+            <ig>12</ig>
+        </idopont>
+        <helyszin>in/203</helyszin>
+        <oktato>Szucs Miklos</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+    <ora id="o5" tipus="eloadas">
+        <targy>Adatkezeles XML-ben</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </idopont>
+        <helyszin>I</helyszin>
+        <oktato>Bednarik Laszlo</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+    <ora id="o6" tipus="gyakorlat">
+        <targy>Adatkezeles XML-ben</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>14</tol>
+            <ig>16</ig>
+        </idopont>
+        <helyszin>in/103</helyszin>
+        <oktato>Bednarik Laszlo</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+</orarend>
