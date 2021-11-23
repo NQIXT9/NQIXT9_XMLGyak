@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type = "text/xsl" href = "studentNQIXT9_choose.xsl"?>
+
+<class>
+	<student id="01">
+		<vezeteknev>Szarka</vezeteknev>
+		<keresztnev>Peter</keresztnev>
+		<becenev>Peti</becenev>
+		<kor>22</kor>
+		<fizetes>600000</fizetes>
+	</student>
+	<student id="02">
+		<vezeteknev>Kiss</vezeteknev>
+		<keresztnev>Imre</keresztnev>
+		<becenev>Imi</becenev>
+		<kor>23</kor>
+		<fizetes>550000</fizetes>
+	</student>
+	<student id="03">
+		<vezeteknev>Nagy</vezeteknev>
+		<keresztnev>Bela</keresztnev>
+		<becenev>Beci</becenev>
+		<kor>21</kor>
+		<fizetes>650000</fizetes>
+	</student>
+</class>

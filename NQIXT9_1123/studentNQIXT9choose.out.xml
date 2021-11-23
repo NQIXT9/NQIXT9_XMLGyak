@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <table border="1">
+            <tr bgcolor="#9acd32">
+                <th>ID</th><th>Vezeteknev</th><th>Keresztnevnev</th><th>Becenev</th><th>Kor</th><th>Fizetes</th><th>Fokozat</th>
+            </tr>
+            <tr>
+                <td>01</td><td>Szarka</td><td>Peter</td><td>Peti</td><td>22</td><td>600000</td><td>Kozepes</td>
+            </tr>
+            <tr>
+                <td>02</td><td>Kiss</td><td>Imre</td><td>Imi</td><td>23</td><td>550000</td><td>Alacsony</td>
+            </tr>
+            <tr>
+                <td>03</td><td>Nagy</td><td>Bela</td><td>Beci</td><td>21</td><td>650000</td><td>Magas</td>
+            </tr>
+        </table>
+    </body>
+</html>
