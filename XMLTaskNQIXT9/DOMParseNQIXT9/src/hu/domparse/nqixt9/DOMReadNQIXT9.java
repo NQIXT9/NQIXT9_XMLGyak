@@ -28,8 +28,9 @@ public class DOMReadNQIXT9 {
 
     
     public static void listAll(Node root) {
-    	NodeList nodeList = root.getChildNodes();//root elem gyerek elemeinek kiválasztása
-    	//kiiratáshoz Stringek
+    	//root elem gyerek elemeinek kiválasztása
+    	NodeList nodeList = root.getChildNodes();
+    	//kiiratáshoz String-ek
     	String rendezo = "Rendezok\n\n";
     	String szinesz = "Szineszek\n\n";
     	String studio = "Studiok\n\n";
@@ -38,9 +39,11 @@ public class DOMReadNQIXT9 {
     	for (int i = 0; i < nodeList.getLength(); i++) {
     		Node node = nodeList.item(i);//root gyerek elemei egyessével
 			if(node.getNodeType() == Node.ELEMENT_NODE) {
-				NodeList subNodeList = nodeList.item(i).getChildNodes();//root gyerek elemeinek a gyerekelemeinek a kiválasztása
+				//root gyerek elemeinek a gyerekelemeinek a kiválasztása
+				NodeList subNodeList = nodeList.item(i).getChildNodes();
                 for (int j = 0; j < subNodeList.getLength(); j++) {
-                	Node subNode = subNodeList.item(j);//root gyerek elemeinek a gyerekelemei egyessével
+                	//root gyerek elemeinek a gyerekelemei egyessével
+                	Node subNode = subNodeList.item(j);
         			if(subNode.getNodeType() == Node.ELEMENT_NODE) {
         				//Stringekbe csoportosítás
         				rendezo += oneNode(subNode,"rendezo");
@@ -63,7 +66,8 @@ public class DOMReadNQIXT9 {
     public static String oneNode(Node subNode, String tag) {
     	String out = "";
     	if(subNode.getNodeName().equals(tag)) {//tag String-gel megegyezõ nevû node-ot keres
-			if(subNode.getAttributes().getLength()>0)//ha van attribute-ja akkor kiirja a legelsõt a String-be
+    		//ha van attribute-ja akkor kiirja a legelsõt a String-be
+			if(subNode.getAttributes().getLength()>0)
 			{
 				out +=tag + " ID : " + subNode.getAttributes().item(0).getTextContent()+"\n";
 			}
@@ -71,25 +75,32 @@ public class DOMReadNQIXT9 {
 			for (int k = 0; k < subSubNodeList.getLength(); k++) {
 	    		Node subSubNode = subSubNodeList.item(k);//node gyerek elemei egyessével
 	    		if(subSubNode.getNodeType() == Node.ELEMENT_NODE) {
-	    			switch(subSubNode.getNodeName()) {//az elem nevétõl függõen máshogy rakja bele a String-be
+	    			//az elem nevétõl függõen máshogy rakja bele a String-be
+	    			switch(subSubNode.getNodeName()) {
+	    			//a refID-kat tartalmazó elemeket olvasása
 	    			case "RID":
 	    			case "SzID":
 	    			case "SID":
 	    			case "FID":
-	    				out +=subSubNode.getNodeName() + " : " + subSubNode.getAttributes().item(0).getTextContent()+"\n";//az elsõ attribute-omokat rakja bele a String-be
+	    				//az elsõ attribute-omokat rakja bele a String-be
+	    				out +=subSubNode.getNodeName() + " : "
+	    			+ subSubNode.getAttributes().item(0).getTextContent()+"\n";
 	    			break;
 	    			case "megjelenes":
 	    			case "lakhely":
 	    			case "szekhely":
 	    				NodeList sssNode = subSubNode.getChildNodes();
-                        for (int l = 0; l < sssNode.getLength(); l++) {//a gyerekelemein for ciklussal végigmegy és úgy rakja bele a String-be
+	    				//a gyerekelemein for ciklussal végigmegy és úgy rakja bele a String-be
+                        for (int l = 0; l < sssNode.getLength(); l++) {
                             if (sssNode.item(l).getNodeType() == Node.ELEMENT_NODE) {
-                            	out += subSubNode.getNodeName() + "-" + sssNode.item(l).getNodeName() + " : " + sssNode.item(l).getTextContent()+"\n";
+                            	out += subSubNode.getNodeName() + "-"
+                            + sssNode.item(l).getNodeName() + " : " + sssNode.item(l).getTextContent()+"\n";
                             }
                         }
 	    			break;
 	    			default:
-	    			out += subSubNode.getNodeName() + " : " + subSubNode.getTextContent()+"\n";//normál esetben az elem nevet és a kontextusát rakja bele a String-be
+	    				//normál esetben az elem nevet és a kontextusát rakja bele a String-be
+	    				out += subSubNode.getNodeName() + " : " + subSubNode.getTextContent()+"\n";
 	    			}
 	    		}
 			}

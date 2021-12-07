@@ -28,7 +28,7 @@
 	<szineszek>
 		<szinesz SzID="sz01">
 			<nev>Leslie Nielsen</nev>
-			<eletkor>89</eletkor>
+			<eletkor>84</eletkor>
 			<lakhely>
 				<orszag>USA</orszag>
 				<varos>Fort Lauderdale</varos>
@@ -64,7 +64,7 @@
 		<studio SID="s02">
 			<nev>Miramax</nev>
 			<alapitas>1979</alapitas>
-			<vezeto>Kiss Bela Andras</vezeto>
+			<vezeto>Bob Weinstein</vezeto>
 			<szekhely>
 				<orszag>USA</orszag>
 				<varos>Santa Monica</varos>
@@ -74,7 +74,7 @@
 	<filmek>
 		<film FID="f01">
 			<cim>Csupasz pisztoly</cim>
-			<bevetel>90000000</bevetel>
+			<bevetel>78756177</bevetel>
 			<hossz>85</hossz>
 			<megjelenes>
 				<ev>1988</ev>
