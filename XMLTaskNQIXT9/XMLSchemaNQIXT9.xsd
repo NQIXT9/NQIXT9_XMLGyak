@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"  elementFormDefault="qualified"> 
+    <xs:element name="filmtar">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="rendezok" type="rendezotype" maxOccurs="1"/>
+                <xs:element name="szineszek" type="szinesztype" maxOccurs="1"/>
+                <xs:element name="studiok" type="studiotype" maxOccurs="1"/>
+                <xs:element name="filmek" type="filmtype" maxOccurs="1"/>
+                <xs:element name="szereplesek" type="szereplestype" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="rendezotype">
+        <xs:sequence>
+            <xs:element name="rendezo" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="nev" type="xs:string"/>
+                        <xs:element name="eletkor" type="xs:integer"/>
+                        <xs:element name="lakhely" type="lakszekhelytype"/>
+                    </xs:sequence>
+                    <xs:attribute name="RID" type="xs:ID" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="megjelenestype">
+        <xs:sequence>
+            <xs:element name="ev" type="xs:integer"/>
+            <xs:element name="honap" type="xs:integer"/>
+            <xs:element name="nap" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="lakszekhelytype">
+        <xs:sequence>
+            <xs:element name="orszag" type="xs:string"/>
+            <xs:element name="varos" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="szinesztype">
+        <xs:sequence>
+            <xs:element name="szinesz" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="nev" type="xs:string"/>
+                        <xs:element name="eletkor" type="xs:integer"/>
+                        <xs:element name="lakhely" type="lakszekhelytype"/>
+                    </xs:sequence>
+                    <xs:attribute name="SzID" type="xs:ID" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    
+    <xs:complexType name="studiotype">
+        <xs:sequence>
+            <xs:element name="studio" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="nev" type="xs:string"/>
+                        <xs:element name="alapitas" type="xs:integer"/>
+                        <xs:element name="vezeto" type="xs:string"/>
+                        <xs:element name="szekhely" type="lakszekhelytype"/>
+                    </xs:sequence>
+                    <xs:attribute name="SID" type="xs:ID" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="filmtype">
+        <xs:sequence>
+            <xs:element name="film" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="cim" type="xs:string"/>
+                        <xs:element name="bevetel" type="xs:long"/>
+                        <xs:element name="hossz" type="xs:integer"/>
+                        <xs:element name="megjelenes" type="megjelenestype"/>
+                        <xs:element name="RID">
+                            <xs:complexType>
+                                <xs:attribute name="refID" type="xs:IDREF"/>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="SID">
+                            <xs:complexType>
+                                <xs:attribute name="refID" type="xs:IDREF"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                    <xs:attribute name="FID" type="xs:ID" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="szereplestype">
+        <xs:sequence>
+            <xs:element name="szereples" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="FID">
+                            <xs:complexType>
+                                <xs:attribute name="refID" type="xs:IDREF"/>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="SzID">
+                            <xs:complexType>
+                                <xs:attribute name="refID" type="xs:IDREF"/>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="szerep" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+</xs:schema>

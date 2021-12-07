@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-model href="XMLSchemaNQIXT9.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?><filmtar>
+	<rendezok>
+		<rendezo RID="r01">
+			<nev>David Zucker</nev>
+			<eletkor>74</eletkor>
+			<lakhely>
+				<orszag>USA</orszag>
+				<varos>Los Angeles</varos>
+			</lakhely>
+		</rendezo>
+		<rendezo RID="r02">
+			<nev>Peter Segal</nev>
+			<eletkor>58</eletkor>
+			<lakhely>
+				<orszag>USA</orszag>
+				<varos>Chicago</varos>
+			</lakhely>
+		</rendezo>
+		<rendezo RID="r03">
+			<nev>Keenen Ivory Wayans</nev>
+			<eletkor>63</eletkor>
+			<lakhely>
+				<orszag>USA</orszag>
+				<varos>New York</varos>
+			</lakhely>
+		</rendezo>
+	</rendezok>
+	<szineszek>
+		<szinesz SzID="sz01">
+			<nev>Leslie Nielsen</nev>
+			<eletkor>89</eletkor>
+			<lakhely>
+				<orszag>USA</orszag>
+				<varos>Fort Lauderdale</varos>
+			</lakhely>
+		</szinesz>
+		<szinesz SzID="sz02">
+			<nev>Priscilla Presley</nev>
+			<eletkor>76</eletkor>
+			<lakhely>
+				<orszag>USA</orszag>
+				<varos>Los Angeles</varos>
+			</lakhely>
+		</szinesz>
+		<szinesz SzID="sz03">
+			<nev>Marlon Wayans</nev>
+			<eletkor>49</eletkor>
+			<lakhely>
+				<orszag>USA</orszag>
+				<varos>Los Angeles</varos>
+			</lakhely>
+		</szinesz>
+	</szineszek>
+	<studiok>
+		<studio SID="s01">
+			<nev>Paramount Pictures</nev>
+			<alapitas>1912</alapitas>
+			<vezeto>Adolf Zukor</vezeto>
+			<szekhely>
+				<orszag>USA</orszag>
+				<varos>Los Angeles</varos>
+			</szekhely>
+		</studio>
+		<studio SID="s02">
+			<nev>Miramax</nev>
+			<alapitas>1979</alapitas>
+			<vezeto>Kiss Bela Andras</vezeto>
+			<szekhely>
+				<orszag>USA</orszag>
+				<varos>Santa Monica</varos>
+			</szekhely>
+		</studio>
+	</studiok>
+	<filmek>
+		<film FID="f01">
+			<cim>Csupasz pisztoly</cim>
+			<bevetel>90000000</bevetel>
+			<hossz>85</hossz>
+			<megjelenes>
+				<ev>1988</ev>
+				<honap>12</honap>
+				<nap>2</nap>
+			</megjelenes>
+			<RID refID="r01"/>
+			<SID refID="s01"/>
+		</film>
+		<film FID="f02">
+			<cim>Csupasz pisztoly 2 és 1/2</cim>
+			<bevetel>192000000</bevetel>
+			<hossz>81</hossz>
+			<megjelenes>
+				<ev>1991</ev>
+				<honap>6</honap>
+				<nap>28</nap>
+			</megjelenes>
+			<RID refID="r01"/>
+			<SID refID="s01"/>
+		</film>
+		<film FID="f03">
+			<cim>Csupasz pisztoly 33 1/3 – Az utolsó merénylet</cim>
+			<bevetel>51132598</bevetel>
+			<hossz>81</hossz>
+			<megjelenes>
+				<ev>1994</ev>
+				<honap>3</honap>
+				<nap>18</nap>
+			</megjelenes>
+			<RID refID="r02"/>
+			<SID refID="s01"/>
+		</film>
+		<film FID="f04">
+			<cim>Horrorra akadva 2</cim>
+			<bevetel>71308997</bevetel>
+			<hossz>83</hossz>
+			<megjelenes>
+				<ev>2001</ev>
+				<honap>7</honap>
+				<nap>4</nap>
+			</megjelenes>
+			<RID refID="r03"/>
+			<SID refID="s02"/>
+		</film>
+	</filmek>
+	<szereplesek>
+		<szereples>
+			<FID refID="f01"/>
+			<SzID refID="sz01"/>
+			<szerep>Frank Drebin hadnagy</szerep>
+		</szereples>
+		<szereples>
+			<FID refID="f01"/>
+			<SzID refID="sz02"/>
+			<szerep>Jane Spencer</szerep>
+		</szereples>
+		<szereples>
+			<FID refID="f02"/>
+			<SzID refID="sz01"/>
+			<szerep>Frank Drebin hadnagy</szerep>
+		</szereples>
+		<szereples>
+			<FID refID="f02"/>
+			<SzID refID="sz02"/>
+			<szerep>Jane Spencer</szerep>
+		</szereples>
+		<szereples>
+			<FID refID="f03"/>
+			<SzID refID="sz01"/>
+			<szerep>Frank Drebin hadnagy</szerep>
+		</szereples>
+		<szereples>
+			<FID refID="f03"/>
+			<SzID refID="sz02"/>
+			<szerep>Jane Spencer</szerep>
+		</szereples>
+		<szereples>
+			<FID refID="f04"/>
+			<SzID refID="sz03"/>
+			<szerep>Kurta Meeks</szerep>
+		</szereples>
+	</szereplesek>
+</filmtar>
