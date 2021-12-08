@@ -10,6 +10,38 @@
                 <xs:element name="szereplesek" type="szereplestype" maxOccurs="1"/>
             </xs:sequence>
         </xs:complexType>
+        <xs:key name="RID">
+            <xs:selector xpath="rendezo"/>
+            <xs:field xpath="@RID"/>
+        </xs:key>
+        <xs:key name="SzID">
+            <xs:selector xpath="szinesz"/>
+            <xs:field xpath="@SzID"/>
+        </xs:key>
+        <xs:key name="SID">
+            <xs:selector xpath="studio"/>
+            <xs:field xpath="@SID"/>
+        </xs:key>
+        <xs:key name="FID">
+            <xs:selector xpath="film"/>
+            <xs:field xpath="@FID"/>
+        </xs:key>
+        <xs:keyref name="refRID" refer="RID">
+            <xs:selector xpath="film/RID"/>
+            <xs:field xpath="@refID"/>
+        </xs:keyref>
+        <xs:keyref name="refSID" refer="SID">
+            <xs:selector xpath="film/SID"/>
+            <xs:field xpath="@refID"/>
+        </xs:keyref>
+        <xs:keyref name="refFID" refer="FID">
+            <xs:selector xpath="szereples/FID"/>
+            <xs:field xpath="@refID"/>
+        </xs:keyref>
+        <xs:keyref name="refSzID" refer="SzID">
+            <xs:selector xpath="szereples/SzID"/>
+            <xs:field xpath="@refID"/>
+        </xs:keyref>
     </xs:element>
 
     <xs:complexType name="rendezotype">
@@ -121,5 +153,4 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
-    
 </xs:schema>
